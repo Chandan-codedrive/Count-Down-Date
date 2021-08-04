@@ -4,7 +4,7 @@ let minItems = document.getElementById("min");
 let secItems = document.getElementById("sec");
 
 let countDown = () => {
-    let targetDate = new Date("6 Aug 2021")
+    let targetDate = new Date("1 Jan 2022")
     let currentDate = new Date();
     let remainDay = targetDate - currentDate;
     console.log(remainDay);
